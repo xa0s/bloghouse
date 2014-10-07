@@ -40,10 +40,10 @@ log "downloading general g11n files..."
 git clone https://github.com/xa0s/bloghouse-g11n.git g11n
 
 log "downloading sample layout..."
-git clone https://github.com/xa0s/bloghouse-design-sample.git design
+git clone https://github.com/xa0s/bloghouse-design.git design
 
 log "downloading sample content..."
-git clone https://github.com/xa0s/bloghouse-content-sample.git content
+git clone https://github.com/xa0s/bloghouse-content.git content
 
 log "preparing site directory..."
 mkdir "site" && echo "done"
