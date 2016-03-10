@@ -50,7 +50,8 @@ mkdir "site" && echo "done"
 
 log "initializing bloghouse engine..."
 cd engine
-gem install --no-ri --no-rdoc nanoc nutils kramdown adsf rainpress i18n builder
+gem install --no-ri --no-rdoc nanoc -v 3.8.0
+gem install --no-ri --no-rdoc nutils kramdown adsf rainpress i18n builder
 
 log "rehashing rbenv if used..."
 rbenv rehash 2>/dev/null && echo "done" || echo "no rbenv found"
